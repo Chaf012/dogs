@@ -22,7 +22,7 @@ function App() {
           <Header />
           <main className="AppBody">
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/dogs" element={<Home />} />
               <Route path="login/*" element={<Login />} />
               <Route
                 path="conta/*"
